@@ -16,6 +16,7 @@ public class Main {
     private static Thread thread;
     private static List<Socket> currentSockets = new ArrayList<>();
 
+     
     public static void main(String[] args) throws IOException {
         serverSocket = new ServerSocket(PORT_NUMBER);
         while (true) {
